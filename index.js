@@ -11,7 +11,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 app.use(bodyParser.json())
 
 app.get("/", (req, res) => {
-  res.send("Hello world trojan");
+  res.send("Hello world trojan - achilles");
 });
 
 const port = process.env.PORT || 5000
